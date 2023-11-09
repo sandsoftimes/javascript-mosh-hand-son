@@ -91,3 +91,25 @@ arr3=summer(ar1,ar2);
 // console.log(arr3[2]);
 
 // Javascript Basics Completed With Mosh
+
+let myName='firstnamee lastname';
+// console.log(myName);
+
+let testname={
+    fname:'firstname testname',
+    lastName2:'lastname',
+    anotherAge:30,
+}
+console.log(testname.fname);
+console.log(testname.lastName2);
+testname.anotherAge=24;
+console.log(testname.anotherAge);
+console.log(testname['fname']);
+testname['fname']='abc';
+console.log(testname.fname);
+
+arr5=[2,3,4,5];
+arr6=[3,4,2,3];
+console.log(arr5[0]);
+arr6[4]='What Is Up';
+console.log(arr6);
